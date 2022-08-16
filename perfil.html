@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/perfil/perfil.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Perfil</title>
+</head>
+<body>
+    <header class="menu orkut-button-bg">
+        <nav>
+            <div id="title">
+                <a href="./index.html"><h1>ORKUT</h1></a>
+            </div>
+            <div id="hamburguer">
+                <label for="">&#9776;</label>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <aside class="photo">
+            <div class="photo__avatar">
+                <img 
+                    src="./imgs/avatar.jpg" 
+                    height="150px"
+                    width="150px"
+                    alt="">
+            </div>
+            <div class="photo__name">
+                <h1 class="orkut-font-color">Tony Stark</h1>
+            </div>
+            <div class="photo__tools">
+                <div class="photo__tools__messages">
+                    <i class='bx bxs-chat orkut-font-defaut'></i>
+                    <a href="#" class="orkut-link">SCRAPS</a>
+                </div>
+                <div class="photo__tools__editar">
+                    <i class='bx bxs-edit-alt orkut-font-defaut'></i>
+                    <a href="#" class="orkut-link">EDITAR PERFIL</a>
+                </div>
+                <div class="photo__tools__gallery">
+                    <i class='bx bxs-camera orkut-font-defaut'></i>
+                    <a href="#" class="orkut-link">ÁLBUNS</a>
+                </div>
+                <div class="photo__tools__depositions">
+                    <i class='bx bxs-happy-heart-eyes orkut-font-defaut'></i>
+                    <a href="#" class="orkut-link">DEPOIMENTOS</a>
+                </div>
+            </div>
+        </aside>
+        <section class="description">
+            <div class="description__post">
+                <label for="">Como você se sente hoje...</label>
+                <input type="text" placeholder="Escreva aqui">
+                <div class="description__icon">
+                    <i class='bx bxs-smile orkut-font-defaut'></i>
+                    <i class='bx bxs-image-add orkut-font-defaut'></i>
+                    <i class='bx bxs-camera orkut-font-defaut'></i>
+                    <i class='bx bx-at orkut-font-defaut'></i>
+                    <i class='bx bxs-purchase-tag orkut-font-defaut'></i>
+                    <i class='bx bx-map orkut-font-defaut'></i>
+                    <button type="submit">Enviar</button>
+                </div>   
+            </div>
+            <div class="description__feed">
+                <h2>Feed</h2>
+                <div class="description__feed__post">
+                    <img class="post__profile" src="./imgs/natasha.jfif" alt="">
+                    <h3>Natasha Romanoff</h3> 
+                    <p> ...5 min </p>
+                </div>
+                <div class="post__text">
+                    <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio 
+                        vitae libero porro maiores odit facilis incidunt voluptate eligendi 
+                        tempore ea. Ut cupiditate maxime quidem quaerat consequuntur, 
+                        praesentium necessitatibus delectus! Voluptatibus!</p>
+                </div>
+                <div class="post__icon">
+                    <i class='bx bxs-like orkut-font-defaut'>150k</i>
+                    <i class='bx bxs-message-rounded orkut-font-defaut'>80k</i>
+                    <i class='bx bxs-share orkut-font-defaut'>20k</i>
+                </div>
+                <div class="description__feed__post">
+                    <img class="post__profile" src="./imgs/wanda.jpg" alt="">
+                    <h3>Wanda Maximoff</h3> 
+                    <p> ... 15 min </p>
+                </div>
+                <div class="post__text">
+                    <p class="">Voluptatibus!</p>
+                </div>
+                <div class="post__icon">
+                    <i class='bx bxs-like orkut-font-defaut'>300k</i>
+                    <i class='bx bxs-message-rounded orkut-font-defaut'>158k</i>
+                    <i class='bx bxs-share orkut-font-defaut'>60k</i>
+                </div>
+                
+            </div>
+        </section>
+        <aside class="counter">
+            <div class="counter__friend">
+                <h2>Friends</h2>
+                <div class="friend__img">
+                    <img style="border: 5px solid rgb(16, 236, 16);" src="./imgs/natasha.jfif" alt="">
+                    <img  src="./imgs/dr-estranho.jpg" alt="">
+                    <img style="border: 5px solid rgb(16, 236, 16);" src="./imgs/wanda.jpg" alt="">
+                    <img  src="./imgs/spider.jpg" alt="">
+                    <img style="border: 5px solid rgb(16, 236, 16);" src="./imgs/thor.jpg" alt="">
+                    <img  src="./imgs/cap-america.jpg" alt="">
+                </div>
+            </div>
+            <div class="counter__community">
+                <h2>Communities</h2>
+                <div class="friend__img">
+                    <img style="border: 5px solid rgb(163, 16, 236);" src="./imgs/community.jpg" alt="">
+                    <img style="border: 5px solid rgb(163, 16, 236);" src="./imgs/community4.jpg" alt="">
+                    <img style="border: 5px solid rgb(163, 16, 236);" src="./imgs/community1.jpg" alt="">
+                    <img style="border: 5px solid rgb(163, 16, 236);" src="./imgs/community5.jpg" alt="">
+                    <img style="border: 5px solid rgb(163, 16, 236);" src="./imgs/community2.jpg" alt="">
+                    <img style="border: 5px solid rgb(163, 16, 236);" src="./imgs/community3.jpg" alt="">
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer>&copy; 2020. Desenvolvido por Taciara</footer>
+</body>
+</html>
